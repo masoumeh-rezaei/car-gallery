@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+.text-primary1{
+    color: #0070f3;
+}
+.bg-primary1{
+    background-color: #0070f3 ;
+}
+.bg-primary2{
+    background-color:#2d5077 ;
+}
+@layer utilities{
+    .bg-navbar{
+        @apply bg-gradient-to-l from-violet-900 via-violet-500 to-violet-900
+    }
+    .btn-primary{
+        @apply rounded-md border-1 bg-blue-600 border-blue-600  px-4 py-2 text-sm text-white transition-all duration-300 hover:bg-blue-900 hover:border-blue-900
+      }
+      .btn-outline{
+        @apply border-2 rounded-md border-blue-300 px-4 py-2 text-sm border-l text-blue-300 transition-all duration-300 hover:bg-blue-600 hover:text-white tracking-wider
+      }
+}
+
+.allura-regular {
+    font-family: "Allura", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .mystery-quest-regular {
+    font-family: "Mystery Quest", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @theme{
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 70rem;
+    --breakpoint-2xl: 76rem;  
+  }
+  
+
+
+
+  
+
