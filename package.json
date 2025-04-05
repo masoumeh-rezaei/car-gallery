@@ -12,12 +12,10 @@
   "dependencies": {
     "aos": "^2.3.4",
     "react": "^19.0.0",
-    "react-animated-text-content": "^1.0.1",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "react-slick": "^0.30.3",
-    "react-slider": "^2.0.6",
     "tailwind.config.js": "^1.0.6"
   },
   "devDependencies": {

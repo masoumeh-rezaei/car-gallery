@@ -1,6 +1,6 @@
 import img1 from '../assets/man with a car.png'
 import img2 from '../assets/car3.png'
-import AnimatedText from 'react-animated-text-content'
+
 export default function Hero(){
     return(
         <>
@@ -11,27 +11,12 @@ export default function Hero(){
                         <div className='flex flex-col items-center text-center  gap-4 md:items-start md:text-left '>
                            <div className='flex flex-col '>
                            <h1 className='mystery-quest-regular text-7xl font-bold text-slate-300  '>
-                                <AnimatedText 
-                                type='char'
-                                duration={1.1}
-                                interval={0.04}
-                                animation={{
-                                    y:'-400px'
-                                }}
+                               
 
                             
-                            >Modern</AnimatedText></h1>
+                            Modern</h1>
                              <h1 className='text-4xl ml-60 mystery-quest-regular '>
-                                <AnimatedText 
-                                type='char'
-                                duration={1.1}
-                                interval={0.04}
-                                animation={{
-                                    y:'-400px'
-                                }}
-
-                            
-                            >Car</AnimatedText></h1>
+                               Car</h1>
                            </div>
                              <p className='text-slate-200'>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
